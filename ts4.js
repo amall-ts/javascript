@@ -116,7 +116,7 @@
 
 // for (i=1;i<=10;i++){
 //    console.log(i);
-   
+
 // }
 
 
@@ -133,7 +133,23 @@
 // console.log(result);
 
 
-let num =-1
+let num = 5
 
-let result = ( num > 0) ? "positvie" : "negative"
-console.log(result);
+// let result = ( num > 0) ? "positvie" : "negative"
+// console.log(result);
+
+switch (num) {
+    case 1:
+        console.log("its just a wheel");
+        break;
+    case 2:
+        console.log("its a bike");
+        break;
+    case 3:
+        console.log("its a auto");
+        break;
+    default:
+        console.log("its a car");
+
+
+}
