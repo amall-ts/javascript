@@ -64,3 +64,22 @@ for(let i =1;i<=10;i++){
     
 }
 
+for(i=0;i<=100;i++){
+ if(i%2 == 0){
+    console.log(i);
+    
+ }
+}
+
+//   unique elements in array
+
+// let arr=[1,2,3,4,2,1,5,6]
+
+// let sum=[]
+
+// for(let i=0;i<arr.length;i++){
+//     if(!sum.includes(arr[i])){
+//         sum.push(arr[i])
+//     }
+// }
+// console.log(sum);
