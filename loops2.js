@@ -5,7 +5,7 @@
 // for(let i = 0;i<=100;i++){
 //     if(i % 2 == 0){
 //         console.log(i);
-        
+
 //     }
 // }
 
@@ -15,7 +15,7 @@
 // for(let i =0;i<=100;i++){
 //     if(i % 2 !=0){
 //         console.log(i);
-        
+
 //     }
 // }
 
@@ -32,12 +32,25 @@
 // console.log(reversed);
 
 
+// let a=3
+
+// let b=4
+
+// let sum=c
+
+// for(let i=0;i<b;i++){
+//     sum +=1
+// }
+
+// console.log(sum);
+
+
 
 // let str = "mern stack"
 
 // for (let i = str.length-1;i>=0;i--){
 //     console.log(str[i]);
-    
+
 // }
 
 
@@ -45,14 +58,14 @@
 
 // for(let i=arr.length-1;i>=0;i--){
 //     console.log(arr[i]);
-    
+
 // }
 
 // let arr =[50,80,60,20,45]
 
 // for(let i= arr.length-1;i>=0;i--){
 //     console.log(arr[i]);
-    
+
 // }
 
 // Count the number of vowels
@@ -100,7 +113,7 @@
 
 // for(let char of str.toLocaleLowerCase()){
 //     if("aeiou".includes(char)){
-        
+
 //         sum++
 //     }
 // }
@@ -155,8 +168,8 @@
 //     if(arr3[i]>max3){
 //         max3=arr3[i]
 //     }
-    
-    
+
+
 // }
 // console.log(max3);
 
@@ -184,25 +197,66 @@
 
 // for(i=5;i>=1;i--){
 //     console.log(i);
-    
+
 // }
 
 
 // for(i=10;i>=1;i--){
 //     console.log(i);
-    
+
 // }
 
 
-let fruits = ["apple", "banana", "orange"];
-for (let i=0;i<=fruits.length-1;i++) {
-  console.log(fruits);
-}
+// let fruits = ["apple", "banana", "orange"];
+// for (let i=0;i<=fruits.length-1;i++) {
+//   console.log(fruits);
+// }
+
+// let str="heelo"
+
+// let reverse=""
+
+// for(let i=str.length-1;i>=0;i--){
+//   reverse +=str[i]
+// }
+// console.log(reverse);
 
 
 
 
+// let str1="string"
+
+// let reverse1=""
+
+// for(let i=str1.length-1;i>=0;i--){
+//   reverse1 += str1[i]
+// }
+// console.log(reverse1);
 
 
 
+// let num = 6
 
+// function square(num) {
+//   return num * num
+// }
+
+// console.log(square(num));
+
+
+// let arr = [30, 40, 50, 70, 80]
+
+// let num1 = arr[0]
+
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] > num1) {
+//     num1 = arr[i]
+//   }
+// }
+// console.log(num1);
+
+
+// for(let i =1;i<=10;i++){
+//   console.log(i*7);
+  
+// }

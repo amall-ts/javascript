@@ -48,11 +48,11 @@
 
 // console.log(name);
 
-let num1 = [1,2,3]
+// let num1 = [1,2,3]
 
-let num2 = [4,5,6]
+// let num2 = [4,5,6]
 
-let num3 = num1.concat(num2)
+// let num3 = num1.concat(num2)
 
 // num3.pop()
 
@@ -62,11 +62,52 @@ let num3 = num1.concat(num2)
 
 // num3.unshift(1)
 
-let num4 = num3.slice(0 , 3)
+// let num4 = num3.slice(0 , 3)
 
-console.log(num3);
+// console.log(num3);
 
-console.log(num4);
+// console.log(num4);
+
+
+// let numbers = [2,4,5,6,7]
+
+// console.log(numbers[2]);
+
+// console.log(numbers.length);
+
+// numbers.push(9)
+
+// console.log(numbers);
+
+// numbers.pop()
+
+// numbers.unshift(3)
+
+// numbers.shift()
+
+// console.log(numbers.includes(7));
+
+// console.log(numbers.indexOf(7));
+
+
+// let num =[5,6,7,8,9]
+
+// num.reverse()
+
+
+// console.log(num.join(''));
+
+
+let str="string,sum,num"
+
+let n = str.split(",")
+
+console.log(n);
+
+
+
+
+
 
 
 
