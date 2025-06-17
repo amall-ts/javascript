@@ -1,0 +1,101 @@
+<!-- querySelector
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+
+    <button onclick="clickbutton()">click me</button>
+
+    <div id="first" class="first-div group1">
+
+    </div>
+
+    <div id="second" class="first-div group2">
+
+    </div>
+
+    <script>
+
+        let clickbutton = () => {
+
+            let btn=document.querySelector("div")
+            btn.innerHTML="heey"
+            btn.style.backgroundColor="white"
+            
+            }
+        
+
+
+    </script>
+
+</body>
+
+</html> -->
+
+
+
+querySelectorAll
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+
+    <button onclick="clickbutton()">click me</button>
+
+    <div id="first" class="first-div group1">
+
+    </div>
+
+    <div id="second" class="first-div group2">
+
+    </div>
+
+    <script>
+
+        let clickbutton = () => {
+
+            let btn=document.querySelectorAll(".group2")
+            for(el of btn){
+            el.innerHTML="heey"
+            el.style.backgroundColor="white"
+            }
+        
+            }
+        
+
+
+    </script>
+
+</body>
+
+</html>

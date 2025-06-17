@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100%;
+            background-color: aquamarine;
+            border-radius: 1px solid black;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="click_btn()">click </button>
+
+    <div id="firstdiv">
+
+        <h2 id="h2" onclick="removebtn()">heeey hello <small style="cursor: pointer;">remove </small></h2>
+
+    </div>
+
+
+    <script>
+
+        let click_btn=()=>{
+            let btn=document.createElement("h1")
+            btn.innerHTML="hello"
+            btn.style.textAlign="center"
+
+            document.querySelector("#firstdiv").appendChild(btn)
+        }
+
+       let removebtn=()=>{
+        let click= document.querySelector("#h2")
+        document.querySelector("#firstdiv").remove(click)
+       }
+
+    </script>
+    
+    
+</body>
+</html>
