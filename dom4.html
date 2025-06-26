@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          div{
+            height: 100px;
+            width: 100%;
+            background-color: aquamarine;
+            margin-top: 10px;
+          }
+    </style>
+</head>
+<body>
+    <button onclick="click_btn()">click</button>
+    <div id="first" class="firstdiv">
+
+    </div>
+    <div id="second" class="firstdiv">
+
+    </div>
+
+    <script>
+        let click_btn=()=>{
+            let btn=document.getElementById("first")
+            btn.innerHTML="<h1>hello</h1>"
+            btn.style.background="blue"
+        }
+    </script>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+            background-color: aqua;
+            height: 100px;
+            width: 100%;
+            margin-top: 5px;
+         }
+    </style>
+</head>
+<body>
+    <button onclick="click_btn()">click</button>
+    <div id="first" class="firstdiv">
+
+        <h2 id="third"  onclick=" removebtn()">heey hello <small>remove</small></h2>
+    </div>
+    <div id="second" class="firstdiv"></div>
+
+    <script>
+        let click_btn=()=>{
+            let btn= document.createElement("h3")
+            btn.innerHTML="testing"
+            btn.style.textAlign="center"
+
+            document.querySelector("#first").appendChild(btn)
+        }
+
+        let removebtn=()=>{
+            let third=document.querySelector("#third")
+            document.querySelector("#first").removeChild(third)
+        }
+    </script>
+    
+</body>
+</html>

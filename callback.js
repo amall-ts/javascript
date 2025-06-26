@@ -178,19 +178,55 @@
 // oddEven(4,check)
 
 
-function calculate(a,b,callback){
-   return callback(a,b)
-}
+// function calculate(a,b,callback){
+//    return callback(a,b)
+// }
 
-function add(x,y){
-    return x+y
-}
+// function add(x,y){
+//     return x+y
+// }
 
-function mul(x,y){
-    return x*y
-}
+// function mul(x,y){
+//     return x*y
+// }
 
-console.log(calculate(5,6,add));
+// console.log(calculate(5,6,add));
 
 
+
+// function add(a,b,callback){
+//     let result= a + b
+//     callback(result)
+// } 
+
+// function mul(sum){
+//     console.log(" the sum is",sum);
+    
+// }
+// add(5,5,mul)
+
+
+// function add(a,b,callback){
+//     let res = a+b 
+//     callback(res)
+// }
+// function mul(sum){
+//     console.log("sum is ",sum);
+    
+// }
+// add(4,4,mul)
+
+// function oddEven(num,callback){
+//     if(num % 2 ==0 ){
+//         callback("Even")
+//     }else{
+//         callback("odd")
+//     }
+// }
+// function showResult(result){
+//       console.log("the num is",result);
+      
+// }
+
+// oddEven(8,showResult)
 

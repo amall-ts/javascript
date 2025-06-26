@@ -23,3 +23,14 @@
  footballPlayers("neymar","brazil","santos FC")
  footballPlayers("messi","argentina","inter miami")
  footballPlayers("ronaldo","portugal","Al nassar")
+
+
+ function even( num ){
+     if(num % 2 ==0){
+          console.log("even");
+          
+     }else{
+          console.log("odd");
+          
+     }
+ }

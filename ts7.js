@@ -1,18 +1,9 @@
 
-class Car {
-    constructor(name, company) {
-        this.name = name
-        this.company = company
-    }
+let arr =[2,3,4,[5,6,7]]
 
-    info() {
-        console.log(`Car name is ${this.name}, Company:${this.company}`);
+arr.split('').join()
 
-    }
-}
+console.log(arr);
 
-let cars = new Car("swift", "suzuki")
-
-cars.info()
 
            

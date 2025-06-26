@@ -98,11 +98,19 @@
 // console.log(num.join(''));
 
 
-let str="string,sum,num"
+// let str="string,sum,num"
 
-let n = str.split(",")
+// let n = str.split(",")
 
-console.log(n);
+// console.log(n);
+
+let arr = [2, 3, [4, 5, 6, [5, 6, 7, 9]]];
+
+
+let arr1=arr.flat(Infinity)
+
+console.log(arr1);
+
 
 
 
